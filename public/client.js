@@ -3,7 +3,7 @@ let role = url.slice(url.lastIndexOf("/") + 1) === "host" ? "host" : "guest";
 let hostUrl = `${url.slice(0, url.lastIndexOf("/") + 1)}host`;
 let guestUrl = `${url.slice(0, url.lastIndexOf("/") + 1)}`;
 
-console.log(`role: ${role}`);
+console.log(`role: ${role}`); // 役名
 console.log(`host-url: ${hostUrl}`); // ゲストのURL
 console.log(`guest-url: ${guestUrl}`); // ホストのURL
 
